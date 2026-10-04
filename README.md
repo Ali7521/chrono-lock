@@ -5,7 +5,7 @@ Chrono-Lock is an AI-powered Anti-Spoofing system designed to detect "Mock Locat
 ## How it Works
 When a user physically moves (e.g., walking or driving), the device naturally experiences vibrations and rotations, resulting in a **high variance** in accelerometer and gyroscope readings. 
 
-If a user attempts to spoof their location to simulate movement (e.g., driving at 15 m/s) while their device is sitting flat on a desk, the hardware sensors will report near-zero variance. The Chrono-Lock AI model uses a **One-Class SVM** anomaly detection algorithm—trained on legitimate movement profiles—to instantly flag this discrepancy as fraud.
+If a user attempts to spoof their  location to simulate movement (e.g., driving at 15 m/s) while their device is sitting flat on a desk, the hardware sensors will report near-zero variance. The Chrono-Lock AI model uses a **One-Class SVM** anomaly detection algorithm—trained on legitimate movement profiles—to instantly flag this discrepancy as fraud.
 
 ## Features
 - **Synthetic Data Generation**: Simulates both legitimate and spoofed movement profiles for training.
